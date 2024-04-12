@@ -1,0 +1,50 @@
+.header {
+    background-color: rgb(31, 141, 236);
+    padding: 20px;
+    text-align:center;
+   
+}
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+}
+.topnav a:hover {
+    background-color: bisque;
+    color: black;
+}
+.columnleft{
+
+    float: left;
+    width: 20%;
+    padding: 15px;
+  }
+.columnright {
+    float: right;
+    width:  75%;
+    padding: 15px;
+
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+@media screen and (max-width:600px) {
+.column {
+      width: 100%;
+    }
+  }
+.image {
+    width: auto;
+    height: 600px;
+    padding: 50px;
+    
+}
